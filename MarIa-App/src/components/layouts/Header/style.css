@@ -31,3 +31,10 @@
     background-color: #35A17C;
     color: #ffff;
 }
+
+.Header_section ul li a{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
