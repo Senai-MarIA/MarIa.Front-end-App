@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+.Header_section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px;
+}
+
+.Header_section ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 33px;
+    
+}
+
+.Header_section button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 128px;
+    height: 28px;
+    border-radius: 16px;
+    background-color: #35A17C;
+    color: #ffff;
+}
