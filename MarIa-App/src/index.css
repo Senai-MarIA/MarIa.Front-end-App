@@ -1,0 +1,24 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
+    --color-pink: #B249AB;
+    --color-light-pink:#FF00EE;
+    --color-cards-pink: #A23A9B;
+    --color-black: #000000;
+    --color-neutral-white: #fff;
+    --color-neutral-gray: #808080;
+    --color-purple: #fff;
+    --color-green: #3CA270;
+    --color-white-aboutus: #FFF5E6;
+    --color-secondary-purple:#300136;
+    --color-background-purplelight:#43014C;
+    --color-background-gradient: radial-gradient(43.98% 68.57% at 9.22% 12.18%, #72216D 16.83%, #1C0020 99.66%);
+    --font-size-h2:46px;
+    --font-family-jersey: "Jersey 25", sans-serif;
+    --font-family-poppins: "Poppins", sans-serif;
+}

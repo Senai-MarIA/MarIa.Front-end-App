@@ -22,6 +22,10 @@ footer {
     gap: 97px;
 }
 
+.list-footer-content ul li a{
+    color: #000000;
+}
+
 .list-footer-content {
     display: flex;
     flex-direction: column;
@@ -34,7 +38,6 @@ footer {
 
 .list-footer-content h2 {
     font-size: 20px;
-    color: var(--color-neutral-white);
 }
 
 .list-footer-content ul {
@@ -44,7 +47,6 @@ footer {
 }
 
 .list-footer-content ul li a {
-    color: var(--color-neutral-white);
     text-decoration: none;
     font-size: 14px;
 
