@@ -19,11 +19,13 @@ function Main() {
                               <p>Descubra os dias exatos da coleta seletiva e comum na sua rua, encontre pontos de descarte para lixo eletrônico e das operações cata-bagulho com facilidade.</p>
                          </div>
                          <div className="buttonMain">
-                            <a href="">
+                            <a href="" className='DownloadMain'>
                                 <img src={iconCell} alt="" />
                                 Baixar Gratuitamente
                                 </a>
-                            <a href="">Veja como funciona</a>
+                            <a href="" className='SeeMain'>
+                                Veja como funciona
+                            </a>
                         </div>
                 </div>
                 <div className="container2main">

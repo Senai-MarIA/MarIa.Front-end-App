@@ -2,9 +2,10 @@
 
 .Section_Main{
     display: flex;
-    gap: 48px;
+    gap: 220px;
     padding: 130px 144px;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
 }
 
 .container1main{
@@ -25,6 +26,13 @@
     border-radius: 15px;
     color: #5E4383;
     padding: 5px 9px;
+
+}
+
+.group1Main{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .group1Main h1{
@@ -46,4 +54,39 @@
     font-family: var(--font-family-poppins);
     line-height: 30px;
     width: 537px;
+}
+
+.buttonMain{
+    display: flex;
+    gap: 24px;
+}
+
+.DownloadMain{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    background-color: #35A17C;
+    color: var(--color-neutral-white);
+    padding: 4px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: var(--font-family-poppins);
+    font-size: 16px;
+    border-radius: 16px;
+}
+
+.SeeMain{
+    display: flex;
+    align-items: center;
+    background-color: #CBE9DE;
+    color: #2A8264;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: var(--font-family-poppins);
+    font-size: 16px;
+    border: 1px solid #74AB9F;
+    border-radius: 16px;
 }
