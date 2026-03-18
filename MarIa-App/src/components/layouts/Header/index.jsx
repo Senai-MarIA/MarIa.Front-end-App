@@ -8,10 +8,10 @@ function Header() {
             <section className="Header_section">
                 <img src={MarIa_Logo} />
                 <ul>
-                    <li>Funcionalidades</li>
-                    <li>Busque por Cep</li>
-                    <li>Mapa de Descarte</li>
-                    <li>Missão MarIa</li>
+                    <li><a href="">Funcionalidades</a></li>
+                    <li><a href="">Busque por Cep</a></li>
+                    <li><a href="">Mapa de Descarte</a></li>
+                    <li><a href="">Missão MarIa</a></li>
                 </ul>
 
                 <button>Baixar App <img src={downLoadIcon} /></button>
