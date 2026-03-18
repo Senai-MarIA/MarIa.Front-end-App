@@ -1,5 +1,7 @@
 import  './style.css'
-
+import iconSino from '../../../assets/img/IconSino.svg';
+import imgMain from '../../../assets/img/imgMain.svg';
+import iconCell from '../../../assets/img/IconCell.svg';
 function Main() {
     return (
         <>
@@ -7,7 +9,7 @@ function Main() {
 
             <section className="Section_Main">
                 <span>
-                    <img src="../../../assets/img/IconSino.svg" alt="" />
+                    <img src={iconSino} alt="" />
                    <p> Nunca mais perca o dia da coleta!</p>
                    </span>
                    <div className="container1main">
@@ -16,13 +18,16 @@ function Main() {
                               <p>Descubra os dias exatos da coleta seletiva e comum na sua rua, encontre pontos de descarte para lixo eletrônico e das operações cata-bagulho com facilidade.</p>
                          </div>
                          <div className="buttonMain">
-                            <a href="">Baixar Gratuitamente</a>
+                            <a href="">
+                                <img src={iconCell} alt="" />
+                                Baixar Gratuitamente
+                                </a>
                             <a href="">Veja como funciona</a>
                         </div>
                 </div>
                 <div className="container2main">
-                    <img src="../../../assets/img/IconCell.svg" alt="" />
-                    /*nao ta funcionando a importação da imagem, por isso coloquei o caminho direto, arrumar depois*/
+                    <img src={imgMain} alt="" />
+                    {/*nao ta funcionando a importação da imagem, por isso coloquei o caminho direto, arrumar depois*/}
                 </div>
             </section>
         </>
