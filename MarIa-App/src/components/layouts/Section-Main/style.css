@@ -2,7 +2,46 @@
 
 .Section_Main{
     display: flex;
-    flex-direction: column;
     gap: 48px;
-    padding: 0 130px;
+    padding: 130px 144px;
+    justify-content: space-around;
+}
+
+.container1main{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 540px;
+}
+
+.spanMain{
+    display: flex;
+    align-items: center;
+    background-color: #CFC0FE80;
+    align-self: flex-start;
+    gap: 16px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 15px;
+    color: #5E4383;
+    padding: 5px 9px;
+}
+
+.group1Main h1{
+    font-size: 40px;
+    font-weight: 800;
+    font-family: var(--font-family-poppins);
+}
+
+.group1Main span{
+    font-size: 40px;
+    font-weight: 800;
+    color: #10895E;
+}
+
+.group1Main p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #5E4383;
+    font-family: var(--font-family-poppins);
 }

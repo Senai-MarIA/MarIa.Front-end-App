@@ -8,11 +8,12 @@ function Main() {
 
 
             <section className="Section_Main">
-                <span>
+                
+                   <div className="container1main">
+                    <span className="spanMain">
                     <img src={iconSino} alt="" />
                    <p> Nunca mais perca o dia da coleta!</p>
-                   </span>
-                   <div className="container1main">
+                </span>
                         <div className="group1Main">
                             <h1>Descarte inteligente para uma <span>cidade mais limpa.</span></h1>
                               <p>Descubra os dias exatos da coleta seletiva e comum na sua rua, encontre pontos de descarte para lixo eletrônico e das operações cata-bagulho com facilidade.</p>
@@ -27,7 +28,6 @@ function Main() {
                 </div>
                 <div className="container2main">
                     <img src={imgMain} alt="" />
-                    {/*nao ta funcionando a importação da imagem, por isso coloquei o caminho direto, arrumar depois*/}
                 </div>
             </section>
         </>
