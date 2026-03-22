@@ -13,9 +13,9 @@ function InfoCards() {
                 <p>Gerencie o descarte do seu lixo de forma consciente e organizada, ajudando a sua cidade e o meio ambiente.</p>
             </div>
             <div className="containerCards">
-            <Cards icon1={Lixeira} icon2={Reciclavel} title="Informação 1" description="Descrição da informação 1." />
-            <Cards icon1={caminhao} title="Informação 2" description="Descrição da informação 2." />
-            <Cards icon1={Map}  title="Informação 3" description="Descrição da informação 3." />
+            <Cards icon1={Lixeira} icon2={Reciclavel} title="Coleta Comum e Seletiva" description="Saiba exatamente os dias e horários que os caminhões passam na sua rua. Diferencie os horários do lixo comum e reciclável facilmente." />
+            <Cards icon1={caminhao} title="Operação Cata-bagulho" description="Precisa descartar móveis velhos ou objetos grandes? Fique sabendo quando a operação passará no seu bairro ou agende uma retirada." />
+            <Cards icon1={Map}  title="Mapa em tempo real" description="Acompanhe o Cata-Bagulho ao vivo pelo mapa e descarte seus itens no momento exato da coleta." />
             </div>
         </section>
     );

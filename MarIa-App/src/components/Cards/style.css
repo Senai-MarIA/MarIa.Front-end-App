@@ -4,17 +4,26 @@
     display: flex;
     flex-direction: column;
     padding: 15px 20px;
-
+    border: 1px solid #E7DFDF;
+    background-color: #F5F6F6;
+    border-radius: 18px;
+    width: 350px;
+    height: 230px;
 }
 
 .iconscard{
     display: flex;
     gap: 10px;
 }
-
+.textcard{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 .card h3 {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
-    color: #000000;
+    color: #5E4383;
     margin-top: 20px;
+    font-weight: 600;
 }
