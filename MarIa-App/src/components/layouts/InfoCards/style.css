@@ -7,8 +7,29 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 10px solid #CFC0FE80;
     padding: 195px 90px;
+}
+
+.textup-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    width: 737px;
+    text-align: center;
+}
+
+.info-cards-section h2{
+    font-size: 32px;
+    font-weight: bold;
+    color: #5E4383;
+}
+
+.textup-cards p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #565656;
+    line-height: 30px; 
 }
 
 .containerCards{
