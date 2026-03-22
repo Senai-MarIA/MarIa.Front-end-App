@@ -3,6 +3,7 @@ import Footer from "./components/layouts/Footer"
 import SectionMain from "./components/layouts/Section-Main"
 import BuscaCep from "./components/layouts/BuscaCep"
 import InfoCards from "./components/layouts/InfoCards"
+import SectionMap from "./components/layouts/SectionMap"
 import './App.css'
 function App() {
     return(
@@ -12,6 +13,7 @@ function App() {
             <SectionMain/>
             <BuscaCep/>
             <InfoCards/>
+            <SectionMap/>
             <Footer/>
         </div>
         </>
