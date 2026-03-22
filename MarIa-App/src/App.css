@@ -1,0 +1,8 @@
+@import url(./index.css);
+
+.page{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    font-family: var(--font-family-poppins);
+}

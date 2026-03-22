@@ -1,0 +1,111 @@
+@import url(../../../index.css);
+
+
+.busca-cep-section {
+    position: relative;
+    padding: 51px 181px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Garante que as ondas não vazem para os lados */
+}
+
+.wave-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0; 
+}
+
+.wave-dark, .wave-light {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+}
+
+.wave-dark {
+    z-index: 1; 
+}
+
+.wave-light {
+    z-index: 2; 
+}
+
+.busca-cep-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    z-index: 3; 
+}
+.phone-mockup {
+    width: 280px;
+    height: 580px;
+    background-color: #222;
+    border-radius: 40px;
+    border: 10px solid #111;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    max-width: 500px;
+    gap:21px;
+}
+
+.text-content h2 {
+    font-size: 32px;
+    font-family: var(--font-family-poppins);
+}
+
+.text-content p {
+    line-height: 30px;
+}
+
+.form-container {
+    display: flex;
+    gap: 15px;
+}
+
+.cep-input {
+    padding: 15px 20px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    width: 346px;
+}
+
+.cep-button {
+    padding: 15px 30px;
+    border-radius: 8px;
+    border: none;
+    background-color: #d1b8ff; 
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.cep-button:hover {
+    filter: brightness(0.9);
+}
+
+@media (max-width: 768px) {
+    .busca-cep-section {
+        padding-top: 100px;
+    }
+    .busca-cep-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+    .form-container {
+        flex-direction: column; 
+    }
+}
