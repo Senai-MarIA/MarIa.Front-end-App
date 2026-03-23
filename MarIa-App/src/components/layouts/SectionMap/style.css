@@ -3,11 +3,17 @@
 .section-map {
     display: flex;
     align-items: center;
+    justify-content: space-around;
     gap: 83px;
     padding: 0px  136px 195px 136px;
     background-color: #fff;
     border-radius: 18px;
     position: relative;
+}
+
+.section-map iframe{
+    width: 584px;
+    height: 736px;
 }
 
 .group1map{
@@ -72,6 +78,7 @@
     background-color: #F322224D;
     padding: 5px 7px;
     border-radius: 15px;
+    
     align-self: flex-start;
 }
 
@@ -86,6 +93,12 @@
     font-size: 40px;
     font-weight: 900;
     color: #000000;
+}
+.TextAboutEletronic{
+    font-size: 20px;
+    color: #565656;
+    font-weight: 400;
+    line-height: 30px;
 }
 .SpanDescartar{
     color: #F52323;;
@@ -110,4 +123,28 @@
 
 .iconCompletationMap {
     display: flex;
+}
+
+.messageMap{
+    display: flex;
+    gap: 15px;
+    border-radius: 30px;
+    font-size: 16px;
+    color: #565656;
+    align-items: center;
+}
+
+.messages-container{
+    display: flex;
+    flex-direction: column;
+    gap: 39px;
+}
+
+.messageMap2{
+    display: flex;
+    gap: 15px;
+    border-radius: 30px;
+    font-size: 16px;
+    color: #565656;
+    align-items: center;
 }
