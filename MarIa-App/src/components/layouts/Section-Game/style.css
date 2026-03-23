@@ -4,5 +4,36 @@
     display: flex;
     background-color: #000;
     color: white;
+    padding: 101px 131px;
 }
 
+.GroupContentGame {
+    display: flex;
+    flex-direction: column;
+    width: 561px;
+    
+}
+
+.GroupContentGame button{
+    display: flex;
+    color: #fff;
+
+    background: linear-gradient(to right, #7DC7E0 0%, #8A15B4 100%);
+    padding: 4px 2px;
+    border-radius: 21px;
+    gap: 12px;
+    align-items: center;
+}
+
+.GroupContentGame h2 {
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 300;
+    
+}
+
+.groupmission{
+    display:flex;
+    align-items: center;
+    gap:10px;
+}
