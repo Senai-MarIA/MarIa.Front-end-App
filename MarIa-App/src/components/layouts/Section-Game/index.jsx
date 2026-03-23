@@ -12,7 +12,7 @@ function SectionGame() {
             </div>
 
             
-            <p>Torne-se um Herói da Natureza!</p>
+            <p className="PHero">Torne-se um Herói da Natureza!</p>
             <p>Aprender a reciclar nunca foi tão divertido. Ajude nossa coruja mascote, a MarIA, a colocar todo o lixo nas lixeiras corretas e ganhe pontos ecológicos. Um jogo perfeito para ensinar as crianças sobre sustentabilidade.</p>
             <button><img src={IconControl} alt="" />Jogue Agora</button>
           </div>

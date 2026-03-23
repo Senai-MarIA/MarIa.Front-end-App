@@ -17,9 +17,9 @@
 .GroupContentGame button{
     display: flex;
     color: #fff;
-
+    align-self: flex-start;
     background: linear-gradient(to right, #7DC7E0 0%, #8A15B4 100%);
-    padding: 4px 2px;
+    padding: 9px 23px;
     border-radius: 21px;
     gap: 12px;
     align-items: center;
@@ -36,4 +36,8 @@
     display:flex;
     align-items: center;
     gap:10px;
+}
+
+.PHero{
+    font-family: var(--font-family-jersey);
 }
