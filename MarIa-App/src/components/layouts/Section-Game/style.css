@@ -1,0 +1,8 @@
+@import url(../../../index.css);
+
+.sectiongame {
+    display: flex;
+    background-color: #000;
+    color: white;
+}
+
