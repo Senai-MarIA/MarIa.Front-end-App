@@ -13,18 +13,68 @@
 .complementationMap{
     display: flex;
     flex-direction: column;
+    width: 444px;
     position: absolute;
     bottom: 20%;
-    left: 7%;
-    background-color: #fff;
+    left: 70px;
+    background-color: #FFFBFB;
+    box-shadow: 6px 7px 4.8px 0px rgba(0, 0, 0, 0.16);
+    padding: 15px 12px;
+    border-radius: 10px;
+}
+
+.iconCompletationMap {
+    display: flex;
+    gap: 6px;
+}
+
+
+
+.OrangeDriver{
+    background-color: #FEEAC9;
+    color: #FF8400;
+}
+
+.EletronicTrash{
+    background-color: #46BDCB54;
+    color: #0C92A1;
+    border: 1px solid #0C92A1;
 }
 
 .complementationMap span {
     display: flex;
-    width: 100%;
     border-radius: 8px;
     padding: 1px 5px;
     gap: 6px;
+    font-size: 11px;
+    width: 120px;
+    align-items: center;
+    justify-content: center;
+}
+
+.complementationMap h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #2C6C56;
+}
+
+.textmap{
+    margin-left: 28px;
+    margin-right: 49px;
+}
+
+.local{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.Bairro-cidade{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
 }
 
 .iconCompletationMap {

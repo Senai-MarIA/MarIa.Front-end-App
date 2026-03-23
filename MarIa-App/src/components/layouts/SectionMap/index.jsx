@@ -13,12 +13,14 @@ export default function SectionMap() {
             
             <div className="complementationMap">
                 <div className="iconCompletationMap">
-                <span><img src={iconOrangeCaminhao} alt="" />Cata-Bagulho</span>
-                <span><img src={IconEnergy} alt="" />Lixo Eletrônico</span>
+                <span className="OrangeDriver"><img src={iconOrangeCaminhao} alt=""/>Cata-Bagulho</span>
+                <span className="EletronicTrash"><img src={IconEnergy} alt="" />Lixo Eletrônico</span>
                 </div>
+                <div className="textmap">
                 <h3>Endereço:</h3>
                 <p className="local">Estádio do cortinas melhor time do brasil</p>
                 <p className="Bairro-cidade">Itaquera, São Paulo</p>
+                </div>
             </div>
             </div>
             <div className="group2map">
