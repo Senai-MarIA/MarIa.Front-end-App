@@ -2,16 +2,19 @@
 
 .sectiongame {
     display: flex;
-    background-color: #000;
+    background-color: #1C0020;
+    justify-content: center;
     color: white;
     padding: 101px 131px;
+    gap: 34px;
+    position:relative;
 }
 
 .GroupContentGame {
     display: flex;
     flex-direction: column;
     width: 561px;
-    
+    gap: 35px;
 }
 
 .GroupContentGame button{
@@ -40,4 +43,24 @@
 
 .PHero{
     font-family: var(--font-family-jersey);
+    font-size: 20px;
+}
+
+.DescriptionGame{
+    color:#D9D8D8;
+    font-weight: 300;
+    font-size:20px;
+}
+
+.Waveone{
+position: absolute;
+bottom: 0;
+width: 100%;
+}
+
+.Wavetwo{
+position: absolute;
+bottom: 0;
+right: 0;
+width: 60%;
 }
