@@ -4,10 +4,17 @@
     display: flex;
     align-items: center;
     gap: 83px;
-    padding: 0px  136px 195px 0px;
+    padding: 0px  136px 195px 136px;
     background-color: #fff;
     border-radius: 18px;
     position: relative;
+}
+
+.group1map{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
 }
 
 .complementationMap{
@@ -15,8 +22,8 @@
     flex-direction: column;
     width: 444px;
     position: absolute;
-    bottom: 20%;
-    left: 70px;
+    bottom: -10%;
+    left: 10%;
     background-color: #FFFBFB;
     box-shadow: 6px 7px 4.8px 0px rgba(0, 0, 0, 0.16);
     padding: 15px 12px;
@@ -33,6 +40,7 @@
 .OrangeDriver{
     background-color: #FEEAC9;
     color: #FF8400;
+    border: 1px solid #FF8400;
 }
 
 .EletronicTrash{
@@ -58,6 +66,30 @@
     color: #2C6C56;
 }
 
+.IconMapSpan{
+    display: flex;
+    gap: 6px;
+    background-color: #F322224D;
+    padding: 5px 7px;
+    border-radius: 15px;
+    align-self: flex-start;
+}
+
+.group2map{
+    display: flex;
+    flex-direction: column;
+    gap: 54px;
+    width: 482px;
+}
+
+.group2map h2{
+    font-size: 40px;
+    font-weight: 900;
+    color: #000000;
+}
+.SpanDescartar{
+    color: #F52323;;
+}
 .textmap{
     margin-left: 28px;
     margin-right: 49px;
@@ -68,7 +100,6 @@
     align-items: center;
     font-size: 20px;
     font-weight: 600;
-
 }
 
 .Bairro-cidade{

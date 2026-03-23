@@ -1,4 +1,4 @@
-import iconmap from "../../../assets/img/Map.svg"
+import iconmap from "../../../assets/img/MapSolo.svg"
 import SearchIcon from "../../../assets/img/SearchIcon.svg"
 import caminhaoIcon from "../../../assets/img/caminhao.svg"
 import iconOrangeCaminhao from "../../../assets/img/iconOrangeCaminhao.svg"
@@ -24,8 +24,8 @@ export default function SectionMap() {
             </div>
             </div>
             <div className="group2map">
-                <span><img src={iconmap} alt="" />  Mapa Interativo</span>
-                <h2>Descubra onde descartar o que não vai no lixo comum.</h2>
+                <span className="IconMapSpan"><img src={iconmap} alt="" />  Mapa Interativo</span>
+                <h2>Descubra onde <span className="SpanDescartar">descartar</span> o que não vai no lixo comum.</h2>
                 <p>Lixo eletrônico, pilhas, óleo de cozinha e móveis velhos exigem descarte adequado. Nosso mapa interativo mostra os ecopontos e locais de coleta mais próximos de você.
             </p>
 
