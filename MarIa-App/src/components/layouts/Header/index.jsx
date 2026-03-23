@@ -1,5 +1,5 @@
 import MarIa_Logo from "../../../assets/img/MariaLogo.svg"
-import downLoadIcon from "../../../assets/img/Frame.svg"
+import downLoadIcon from "../../../assets/img/iconDownload.svg"
 import  './style.css'
 
 function Header() {

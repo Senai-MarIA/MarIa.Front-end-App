@@ -1,0 +1,32 @@
+@import url(../../../index.css);
+
+.section-map {
+    display: flex;
+    align-items: center;
+    gap: 83px;
+    padding: 0px  136px 195px 0px;
+    background-color: #fff;
+    border-radius: 18px;
+    position: relative;
+}
+
+.complementationMap{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 20%;
+    left: 7%;
+    background-color: #fff;
+}
+
+.complementationMap span {
+    display: flex;
+    width: 100%;
+    border-radius: 8px;
+    padding: 1px 5px;
+    gap: 6px;
+}
+
+.iconCompletationMap {
+    display: flex;
+}
