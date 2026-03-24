@@ -26,6 +26,15 @@
     border-radius: 21px;
     gap: 12px;
     align-items: center;
+    cursor: pointer;
+}
+
+.GroupContentGame a {
+    text-decoration: none;
+    font-family: var(--font-family-jersey);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
 }
 
 .GroupContentGame h2 {

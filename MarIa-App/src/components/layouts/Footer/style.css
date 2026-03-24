@@ -1,4 +1,5 @@
 @import url(../../../index.css);
+
 * {
     padding: 0;
     margin: 0;
@@ -10,19 +11,20 @@ footer {
     display: flex;
     background-color: var(--color-purple);
     padding: 58px 130px;
+    width: 100%;
+    gap: 5%;
     justify-content: center;
-    gap: 146px;
     align-items: center;
 }
 
 .container-footer1 {
     display: flex;
     align-items: flex-start;
-    gap: 97px;
-    justify-content: space-evenly;
+    gap: 75px;
+    justify-content: space-between;
 }
 
-.list-footer-content ul li a{
+.list-footer-content ul li a {
     color: #000000;
 }
 
@@ -56,11 +58,11 @@ footer {
 .container-footer2 a {
     background-color: var(--color-pink);
     display: flex;
-    padding: 18px 20px;
-    border-radius: 10px;
+    padding: 15px 17px;
+    border-radius: 34px;
     align-items: center;
-    gap: 24px;
-    font-size: 24px;
+    gap: 15px;
+    font-size: 20px;
     color: var(--color-neutral-white);
     cursor: pointer;
     text-decoration: none;
