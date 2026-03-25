@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import Header from "./components/layouts/Header"
 import Footer from "./components/layouts/Footer"
 import SectionMain from "./components/layouts/Section-Main"
@@ -6,22 +7,27 @@ import InfoCards from "./components/layouts/InfoCards"
 import SectionMap from "./components/layouts/SectionMap"
 import SectionGame from "./components/layouts/Section-Game"
 import './App.css'
+
 function App() {
+    const [localizacao, setLocalizacao] = useState(null); 
+
     return(
         <>
         <div className="page">
             <Header/>
             <SectionMain/>
-            <BuscaCep/>
+            
+            <BuscaCep onBuscaSucesso={setLocalizacao} />
+            
             <InfoCards/>
-            <SectionMap/>
+            
+            <SectionMap dadosLocal={localizacao} />
+            
             <SectionGame/>
             <Footer/>
         </div>
         </>
     )
 }
-
-
 
 export default App

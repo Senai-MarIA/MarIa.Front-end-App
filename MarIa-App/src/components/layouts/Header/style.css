@@ -28,10 +28,10 @@
     align-items: center;
     gap: 10px;
     width: 128px;
-    height: 28px;
     border-radius: 16px;
     background-color: #35A17C;
     color: #ffff;
+    padding: 10px 5px;
 }
 
 .Header_section ul li a{

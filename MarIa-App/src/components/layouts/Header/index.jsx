@@ -13,8 +13,7 @@ function Header() {
                     <li><a href="">Mapa de Descarte</a></li>
                     <li><a href="">Missão MarIa</a></li>
                 </ul>
-
-                <button>Baixar App <img src={downLoadIcon} /></button>
+                <button>Baixar App <img src={downLoadIcon}/></button>
             </section>
         </>
     )

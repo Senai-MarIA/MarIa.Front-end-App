@@ -22,7 +22,7 @@
     color: #fff;
     align-self: flex-start;
     background: linear-gradient(to right, #7DC7E0 0%, #8A15B4 100%);
-    padding: 9px 23px;
+    padding: 20px 23px;
     border-radius: 21px;
     gap: 12px;
     align-items: center;
@@ -36,7 +36,6 @@
     font-size: 20px;
     cursor: pointer;
 }
-
 .GroupContentGame h2 {
     font-size: 40px;
     color: #ffffff;
