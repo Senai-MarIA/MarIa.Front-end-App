@@ -91,3 +91,57 @@
     border-radius: 16px;
 }
 
+@media (max-width: 768px){
+
+    .Section_Main{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        padding: 50px 15px;
+    }
+
+    .group1Main p{
+        width: 100%;
+    }
+  
+    .spanMain{
+            align-self: center;
+            width: 100%;
+            text-align: center;
+            gap: 5px;
+
+    }
+    
+    .group1Main h1{
+        text-align: center;
+    }
+
+    .group1Main p{
+        text-align: center;
+    }
+
+    .buttonMain{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        }
+
+        .DownloadMain{
+            padding: 20px 20px;
+            width: 80%;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .SeeMain{
+            padding: 20px 20px;
+            width: 80%;
+            text-align: center;
+            align-items: center;
+                        justify-content: center;
+
+        }
+}

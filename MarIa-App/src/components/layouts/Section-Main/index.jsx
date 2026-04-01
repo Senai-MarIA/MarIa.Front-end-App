@@ -32,6 +32,8 @@ function Main() {
                     <img src={imgMain} alt="" />
                 </div>
             </section>
+
+            
         </>
     )
 }
