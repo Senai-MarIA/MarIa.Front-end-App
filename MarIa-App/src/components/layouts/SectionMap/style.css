@@ -148,3 +148,34 @@
     color: #565656;
     align-items: center;
 }
+
+@media (max-width: 768px) {
+    .section-map{
+        flex-direction: column;
+        gap: 20px;
+        padding: 0px 15px 50px 15px;
+    }
+    .section-map iframe{
+        width: 124%;;
+        align-self: center;
+    }
+    .complementationMap{
+        width: 100%;
+        flex-direction: column;
+        bottom: -17%;
+        left: 0%;
+    }
+
+    .group2map{
+        display: flex;
+        padding-top: 120px;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .IconMapSpan{
+        align-self: center;
+    }
+}
