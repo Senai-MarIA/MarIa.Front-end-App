@@ -43,6 +43,14 @@
 
 @media (max-width: 768px){
 
+    .Header_section{
+        flex-direction: column;
+        gap: 20px;
+    }
 
+    .Header_section ul{
+        flex-direction: column;
+        gap: 20px;
+    }
     
 }
