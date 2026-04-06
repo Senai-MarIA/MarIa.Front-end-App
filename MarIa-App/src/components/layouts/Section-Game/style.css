@@ -44,6 +44,7 @@
     
 }
 
+
 .groupmission{
     display:flex;
     align-items: center;
@@ -73,3 +74,25 @@ bottom: 0;
 right: 0;
 width: 60%;
 }
+
+@media (max-width:698px) {
+    .sectiongame {
+        flex-direction: column;
+        padding: 50px 20px;
+    }
+
+    .GroupContentGame {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .GroupContentGame button {
+        align-self: center;
+    }
+    .GroupImageGame{
+    align-self: center;
+}
+.Waveone, .Wavetwo {
+    width: 90%;
+}}
