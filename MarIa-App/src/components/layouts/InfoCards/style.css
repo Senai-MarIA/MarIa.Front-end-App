@@ -38,3 +38,14 @@
     justify-content: center;
     align-items: center;
 }
+
+
+@media (max-width: 720px) {
+    .containerCards{
+        flex-direction: column;
+    }
+
+    .textup-cards{
+        width: 300px;
+    }
+}
