@@ -79,6 +79,7 @@ width: 60%;
     .sectiongame {
         flex-direction: column;
         padding: 50px 20px;
+        
     }
 
     .GroupContentGame {
@@ -92,6 +93,9 @@ width: 60%;
     }
     .GroupImageGame{
     align-self: center;
+}
+.GroupImageGame img{
+    width: 200px;
 }
 .Waveone, .Wavetwo {
     width: 90%;
