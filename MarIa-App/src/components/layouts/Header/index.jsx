@@ -15,12 +15,17 @@ function Header() {
                 
                 <img src={MarIa_Logo} />
                 
-               
+                <ul className={isMenuOpen ? "active" : ""}>
+                    <li><a href="#InfoCards">Funcionalidades</a></li>
+                    <li><a href="#BuscaCep">Busque por Cep</a></li>
+                    <li><a href="#IdMap">Mapa de Descarte</a></li>
+                    <li><a href="#IdGame">Missão MarIa</a></li>
+                </ul>
+
                 <button className="Download_Button">
                     <img src={downLoadIcon} />
                     Baixar App
                 </button>
-                  <div className="organizatorHeader"> 
                 <button className={`Menu_Toggle ${isMenuOpen ? 'active' : ''}`} 
                     onClick={toggleMenu}>
                     <span></span>
@@ -28,13 +33,7 @@ function Header() {
                     <span></span>
                 </button>
                
-                <ul className={isMenuOpen ? "active" : ""}>
-                    <li><a href="#InfoCards">Funcionalidades</a></li>
-                    <li><a href="#BuscaCep">Busque por Cep</a></li>
-                    <li><a href="#IdMap">Mapa de Descarte</a></li>
-                    <li><a href="#IdGame">Missão MarIa</a></li>
-                </ul>
-                </div>
+               
             </article>
             </section>
         </>
