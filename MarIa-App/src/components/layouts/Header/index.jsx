@@ -24,7 +24,6 @@ function Header() {
 
                 <button className="Download_Button">
                     <img src={downLoadIcon} />
-                    Baixar App
                 </button>
                 <button className={`Menu_Toggle ${isMenuOpen ? 'active' : ''}`} 
                     onClick={toggleMenu}>

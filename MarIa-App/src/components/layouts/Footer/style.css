@@ -100,10 +100,13 @@ footer {
         display: flex;
         flex-direction: column;
         gap: 20px;
+        text-align: center;
+
     }
 
     .list-footer-content ul li a {
         font-size: 20px;
+        text-align: center;
     }
 
     .list-footer-content h2 {
