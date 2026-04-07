@@ -29,10 +29,10 @@ function Header() {
                 </button>
                
                 <ul className={isMenuOpen ? "active" : ""}>
-                    <li><a href="">Funcionalidades</a></li>
-                    <li><a href="">Busque por Cep</a></li>
-                    <li><a href="">Mapa de Descarte</a></li>
-                    <li><a href="">Missão MarIa</a></li>
+                    <li><a href="#InfoCards">Funcionalidades</a></li>
+                    <li><a href="#BuscaCep">Busque por Cep</a></li>
+                    <li><a href="#IdMap">Mapa de Descarte</a></li>
+                    <li><a href="#IdGame">Missão MarIa</a></li>
                 </ul>
                 </div>
             </article>

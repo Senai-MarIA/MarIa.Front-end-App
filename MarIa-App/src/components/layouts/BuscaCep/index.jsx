@@ -47,7 +47,7 @@ function BuscaCep({ onBuscaSucesso }) {
     };
 
     return (
-        <section className="busca-cep-section">
+        <section className="busca-cep-section" id='BuscaCep'>
             <div className="wave-container">
                 <svg
                     className="wave-dark"

@@ -35,9 +35,15 @@
     text-decoration: none;
     list-style: none;
     gap: 33px;
-    
 }
 
+.Header_section ul li a{
+    transition: 0.3s ease-in-out;
+    
+}
+.Header_section ul li a:hover{
+    color: #35A17C;
+}
 .Header_section .Download_Button{
     display: flex;
     justify-content: center;

@@ -4,7 +4,7 @@ import LogoTipoGame from "../../../assets/img/LogoTipoGame.svg"
 import IconControl from "../../../assets/img/IconControl.svg"
 function SectionGame() {
     return (
-        <section className="sectiongame">
+        <section className="sectiongame" id='IdGame'>
           <div className="GroupContentGame">
             <div className="groupmission">
             <h2>Missão</h2>

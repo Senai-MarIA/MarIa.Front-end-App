@@ -13,7 +13,7 @@ export default function SectionMap({ dadosLocal }) {
     const urlMapa = `https://maps.google.com/maps?q=${encodeURIComponent(buscaGoogle)}&t=&z=14&ie=UTF8&iwloc=&output=embed`;
 
     return (
-        <section className="section-map">
+        <section className="section-map" id='IdMap'>
             <div className="group1map">
                 <iframe 
                     src={urlMapa}

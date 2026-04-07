@@ -7,7 +7,7 @@ import caminhao from "../../../assets/img/caminhao.svg";
 import Map from "../../../assets/img/Map.svg";
 function InfoCards() {
     return (
-        <section className="info-cards-section">
+        <section className="info-cards-section" id="InfoCards">
             <div className="textup-cards">
                 <h2>Tudo o que você precisa em um só lugar</h2>
                 <p>Gerencie o descarte do seu lixo de forma consciente e organizada, ajudando a sua cidade e o meio ambiente.</p>
