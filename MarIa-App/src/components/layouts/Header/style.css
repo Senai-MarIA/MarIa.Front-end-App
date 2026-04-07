@@ -39,7 +39,7 @@
 
 .Header_section ul li a{
     transition: 0.3s ease-in-out;
-    
+
 }
 .Header_section ul li a:hover{
     color: #35A17C;
@@ -96,7 +96,6 @@
     }
     .Header_section ul.active {
         display: flex;
-
     }
     .organizatorHeader{
         display: flex;
